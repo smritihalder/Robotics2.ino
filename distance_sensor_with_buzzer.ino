@@ -16,7 +16,7 @@ pinMode(echo,INPUT);
 
 void loop() {
   // put your main code here, to run repeatedly:
-digitalWrite(trig,OUTPUT);
+digitalWrite(trig,HIGH);
 delayMicroseconds(1000);
 digitalWrite(trig,LOW);
 
